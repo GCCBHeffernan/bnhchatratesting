@@ -45,11 +45,13 @@
     <script>
 
         $(document).ready(function () {
+            $("#body").load("home.html");
             $("#nav-linkhome").click(
                 function () {
                     // $('.nav-link', this).not('.in .dropdown-menu').stop(true, true).slideToggle("400");
                     $("#nav-linkhome").addClass('active');
                     $("#nav-linkcontact").removeClass('active');
+                    $("#contact").unload("Contact.html");
                     $("#body").load("home.html");
                 }
             );
@@ -58,6 +60,7 @@
                     // $('.nav-link', this).not('.in .dropdown-menu').stop(true, true).slideToggle("400");
                     $("#nav-linkcontact").addClass('active');
                     $("#nav-linkhome").removeClass('active');
+                    $("#body").unload("home.html");
                     $("#contact").load("Contact.html");
                 }
             );
