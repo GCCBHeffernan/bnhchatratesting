@@ -1,0 +1,26 @@
+    #BNHInfo {
+      background-color: #0F3149;
+      object-position: center;
+     }
+
+    .centerBNH {
+      width: 100%;
+      /* object-fit: cover; */
+      padding: 20px;
+      display: block;
+      margin: auto;
+      
+    }
+
+    #ChatInfo {
+      background-color: #dbe4ed;
+      object-position: center;
+     }
+
+    
+    .centerChat {
+      width: 100%;
+      object-fit: cover;
+      padding: 20px;
+    }
+
